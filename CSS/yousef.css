@@ -181,6 +181,11 @@ header .container h1 span{
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media(max-width:768px){
+  .about .container .row .row-poster{
+    justify-content: space-around;
+  }
+}
 @media(min-width:767px){
   .about .container .row .test-1{
     display: none;
