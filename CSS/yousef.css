@@ -138,7 +138,7 @@ header .container h1 span{
 }
 .about .container .name{
   font-family: 'Cairo', sans-serif;
-
+    direction: rtl;
 }
 @media(max-width:768px){
   .about .container .row h1{
